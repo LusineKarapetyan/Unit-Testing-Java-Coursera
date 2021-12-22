@@ -12,5 +12,5 @@ The testing with JUnit includes writing a basic test, using JUnit Annotations an
 1. To use these exercise files, you must have the following installed:<br>
   - Java SDK <br>
   - Java IDE (Such as IntelliJ, Eclipse or VS Code) <br>
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree. <br>
-3. After that, you can open the project in your IDE. (It is often also possible to clone using your IDE.) <br>
+2. Clone repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree. <br>
+3. Open the project in your IDE. (It is often also possible to clone using your IDE.) <br>
