@@ -1,4 +1,5 @@
 # Unit-Testing-Java-Coursera
+<img src="https://github.com/LusineKarapetyan/Unit-Testing-Java-Coursera/blob/main/junit5-banner.png" />
 This is the repository for the Coursera Learning course Unit Testing with Java.
 
 
