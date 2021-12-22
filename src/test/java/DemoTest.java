@@ -4,6 +4,7 @@
  * {@link Demo#main(String[])} and
  * {@link Demo#isTriangle(double, double, double)}).
  */
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
@@ -16,41 +17,49 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DemoTest {
 
     @Test
+    @DisplayName("Checking triangle with 3,4,5 sides")
     public void testIsTriangle1(){
         assertTrue(Demo.isTriangle(3,4,5));
     }
 
     @Test
+    @DisplayName("Checking triangle with 5,12,12 sides")
     public void testIsTriangle2(){
         assertTrue(Demo.isTriangle(5,12,13));
     }
 
     @Test
+    @DisplayName("Checking triangle with 13,12,5")
     public void testIsTriangle3(){
         assertTrue(Demo.isTriangle(13, 12, 5));
     }
 
     @Test
+    @DisplayName("Checking triangle with 5,13,12")
     public void testIsTriangle4(){
         assertTrue(Demo.isTriangle(5,13,12));
     }
 
     @Test
+    @DisplayName("Checking that Not triangle is with 5,7,13 sides")
     public void testIsNotTriangle1(){
         assertFalse(Demo.isTriangle(5,7,13));
     }
 
     @Test
+    @DisplayName("Checking that Not triangle is with 5,13,7 sides")
     public void testIsNotTriangle2(){
         assertFalse(Demo.isTriangle(5,13,7));
     }
 
     @Test
+    @DisplayName("Checking that Not triangle is with 7,13,5 sides")
     public void testIsNotTriangle3(){
         assertFalse(Demo.isTriangle(7,13,5));
     }
 
     @Test
+    @DisplayName("Checking that Not triangle is with -2,7,8 sides")
     public void testIsNotTriangle4(){
         assertFalse(Demo.isTriangle(-2,7,8));
     }
